@@ -1,0 +1,32 @@
+.header-new > h2 {
+  color: white;
+  font-family: 'David Libre', serif;
+  text-align: center;
+  margin-top: 10px;
+  border-bottom: 4px double white;
+}
+
+.header-container {
+  width :400px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.back-link {
+  font-family: 'David Libre', serif;
+  color: white;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-link > a {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  &:hover {
+    color: $dark-green;
+    text-decoration: none;
+  }
+}

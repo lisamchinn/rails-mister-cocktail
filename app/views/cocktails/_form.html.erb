@@ -1,0 +1,11 @@
+<div class="form-container">
+<%= form_for(cocktail) do |f| %>
+  <div class="form-group">
+    <%= f.label :name %>
+    <%= f.text_field :name, class: 'form-control' %>
+    <%= f.label :photo, class: 'mt-3' %>
+    <%= f.text_field :photo, class: 'form-control' %>
+  </div>
+  <%= f.submit class: "btn btn-outline-light mt-2" %>
+<% end %>
+</div>

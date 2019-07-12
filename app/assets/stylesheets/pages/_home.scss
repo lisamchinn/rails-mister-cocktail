@@ -1,1 +1,48 @@
 // Specific CSS for your home-page
+
+body {
+  position: relative;
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.container {
+  padding-bottom: 100px;
+}
+
+.cocktail-header {
+  border-bottom: 4px double white;
+  width: 450px;
+  text-align: center;
+}
+
+.cocktail-header h1 {
+  color: white;
+  font-family: 'David Libre', serif;
+  margin: 0;
+  text-align: center;
+  margin-top: 22px;
+  font-size: 48px;
+}
+
+.cocktail-name {
+  color: white;
+  opacity: 0.8;
+  font-size: 18px;
+  font-family: 'David Libre', serif;
+  position: absolute;
+  bottom: -6px;
+  left: 12px;
+}
+
+// .cocktail-name a:hover {
+//   text-decoration: none;
+//   color: $dark-green;
+//   opacity: 1;
+//   font-weight: bolder;
+// }
+
+.main-font {
+  font-family: 'David Libre', serif;
+  font-color: white;
+}
+

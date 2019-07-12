@@ -2,18 +2,30 @@
 <html>
   <head>
     <title>RailsMisterCocktail</title>
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=David+Libre&display=swap" rel="stylesheet">
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
+    <%= render 'shared/navbar' %>
     <%= yield %>
-    <%= javascript_include_tag "application" %>
+    <%= render 'shared/footer' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag "application" %>
   </body>
 </html>
+
+
+<!-- Line 24 getting old javascript
+Line 25 getting new javascript -->
+
+

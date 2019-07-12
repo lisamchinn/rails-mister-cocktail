@@ -1,0 +1,30 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1485265449635-ca623a55e95c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);">
+  <div class="container">
+    <h6>“Here’s to alcohol, the rose colored glasses of life.” — F. Scott Fitzgerald</h6>
+    <a href="#cocktail-list">ENTER</a>
+  </div>
+</div>
+
+<div class="container cocktail-selection">
+  <div class="d-flex justify-content-around mb-4">
+    <div class="cocktail-header" id="cocktail-list">
+    <h1>OUR SELECTION</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <% @cocktails.each do |cocktail| %>
+      <div class="col-4">
+        <div class="cocktail-name">
+          <%= link_to cocktail_path(cocktail) do  %>
+        </div>
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= cocktail.photo %>)">
+          <div>
+            <p class="cocktail-name"><%= cocktail.name %></p>
+          </div>
+        </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>

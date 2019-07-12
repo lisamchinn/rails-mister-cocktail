@@ -1,12 +1,76 @@
-.navbar-lewagon {
+.logo-icon h5 {
+  font-family: 'Anton', sans-serif;
+  font-size: 52px;
+  margin-left: 77px;
+  color: white;
+  position: absolute;
+  left: 21px;
+  top: -26px
+}
+
+.navbar-imbibe {
+  background-color: black;
+  display: flex;
   justify-content: space-between;
-  background: white;
+  align-items: center;
+  height: 93px;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-imbibe a {
+  text-decoration: none;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-imbibe-white {
+  background-color: white;
+}
+
+.logo-icon {
+  width: 395px;
+  position: relative;
+}
+
+.logo-icon a {
+  color: white;
+  position: absolute;
+  top: 21px;
+  left: 5px;
+}
+
+h6 {
+  margin-right: 30px;
+}
+
+.logo-icon i {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: -3px;
+  left: 32px;
+}
+
+.add-cocktail a {
+  color: white;
+  text-decoration: none;
+  font-family: 'David Libre', serif;
+  margin-top: 11px;
+}
+
+.add-cocktail i {
+  color: white;
+}
+
+.navbar-imbibe a:hover {
+  color: #57795d;
+}
+
+.background-dark {
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.border-none {
+  border: none;
+}
+
+.font-white {
+  color: white;
 }

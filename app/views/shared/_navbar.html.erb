@@ -1,0 +1,16 @@
+<div class="d-flex py-3 border-bottom navbar-imbibe fixed-top">
+  <div class="logo-icon">
+    <i class="fas fa-cocktail"></i>
+    <h5><%= link_to "imbibe", root_path %><h5>
+  </div>
+  <div class="add-cocktail d-flex justify-content-around align-items-center">
+    <div class="search-container">
+      <form action="/cocktails" class="mr-3 main-font font-white">
+        <input type="text" placeholder="SEARCH..." name="search" class="background-dark main-font font-white">
+        <button type="submit" class="background-dark main-font border-none"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+    <h6><%= link_to "ADD A COCKTAIL", new_cocktail_path %></h6>
+  </div>
+</div>
+

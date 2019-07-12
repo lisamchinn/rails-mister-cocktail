@@ -1,0 +1,77 @@
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.card-product {
+  overflow: hidden;
+  height: 720px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: space-between;
+  img {
+    height: 100%;
+    width: 500px;
+    object-fit: cover;
+  }
+  h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
+
+.card-product-infos {
+  h1 {
+    font-family: 'David Libre', serif;
+    border-bottom: 4px double white;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  h3 {
+    font-family: 'David Libre', serif;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  li {
+    font-family: 'David Libre', serif;
+    color: white;
+    font-size: 16px;
+  }
+}
+
+.card-product-infos a {
+  font-family: 'David Libre', serif;
+  color: white;
+  font-size: 16px;
+  margin-left: 17px;
+  &:hover {
+    color: $dark-green;
+    text-decoration: none;
+  }
+}
+
+.edit-delete a {
+  color: $dark-green;
+}
